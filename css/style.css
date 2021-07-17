@@ -183,8 +183,16 @@ footer {
         
         .card-container {
             max-width: 250px;
+            max-height: 100px;
             text-align: center;
             justify-content: center;
+        }
+
+        input{
+            max-width: 200px;
+            max-height: 80px;
+            text-align: center;
+            justify-content: cent
         }
     }
   
