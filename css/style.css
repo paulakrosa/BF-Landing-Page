@@ -166,7 +166,7 @@ footer {
             max-width: 200px;
         }
         .section-container, .section-container-two {
-            height: auto;
+            max-width: 480px;
             flex-direction: column;
             justify-content: center;
         }
