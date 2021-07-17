@@ -157,6 +157,7 @@ footer {
     @media (max-width: 480px) {
         .section-container {
             background-image: none;
+            max-width: 300px;
         }
     
         #imageQuadro {
@@ -172,47 +173,18 @@ footer {
         }
     
         #imageBlackFriday {
-            max-width: 200px;
+            max-width: 300px;
             justify-content: left;
         }
     
         #imageLogo {
-            max-width: 20px;
+            max-width: 60px;
         }
-
-    @media screen and (max-width: 40.625rem) {
-        .section-container {
-          max-width: 20.625rem;
-        }
-
-        #imageQuadro {
-            display: block;
-            max-width: 10rem;
-        }
-        .section-container, .section-container-two {
-            height: auto;
-            flex-direction: row column row-reverse;
+        
+        .card-container {
+            max-width: 300;
+            text-align: center;
             justify-content: center;
         }
-        .section-container-two {
-            flex-direction: column-reverse;
-        }
-    
-        #imageBlackFriday {
-            max-width: 15rem;
-            justify-content: left;
-        }
-
-        .card-container{
-            max-width: 15rem;
-            flex-direction: column row-reverse;
-            justify-content: center;
-        }
-
-        input{
-            max-width: 10rem;
-            flex-direction: column row-reverse;
-            justify-content: center;
-        }
-    }      
-}
+    }
+  
