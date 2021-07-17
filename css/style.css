@@ -149,11 +149,11 @@ footer {
 
         #imageQuadro {
             display: block;
-            max-width: 20rem;
+            max-width: 10rem;
         }
         .section-container, .section-container-two {
             height: auto;
-            flex-direction: column;
+            flex-direction: row column row-reverse;
             justify-content: center;
         }
         .section-container-two {
