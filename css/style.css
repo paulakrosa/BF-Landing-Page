@@ -31,7 +31,7 @@ html {
 
 
 #imageBlackFriday {
-    max-width: 800px;
+    max-width: 600px;
     margin: 2% 0 15% 10%;
 }
 
@@ -122,7 +122,7 @@ footer {
     font-style: normal;
 }
 
-@media (max-width: 769px) {
+@media screen and (max-width: 769px) {
     .section-container {
         background-image: none;
     }
@@ -149,7 +149,7 @@ footer {
         max-width: 20px;
     }
 
-    @media (max-width: 40.625rem) {
+    @media screen and (max-width: 40.625rem) {
         .section-container {
           max-width: 20.625rem;
         }
