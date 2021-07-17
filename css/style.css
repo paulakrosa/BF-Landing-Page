@@ -167,7 +167,7 @@ footer {
         }
         .section-container, .section-container-two {
             max-width: 480px;
-            max-height: 1000px;
+            height: 1000px;
             flex-direction: column;
             justify-content: center;
         }
@@ -178,7 +178,7 @@ footer {
         #imageBlackFriday {
             max-width: 300px;
             justify-content: center;
-            margin-right: 2%;
+            margin-right: 5%;
         }
     
         #imageLogo {
