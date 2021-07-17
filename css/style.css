@@ -158,8 +158,8 @@ footer {
         .section-container {
             background-image: none;
             max-width: 300px;
-            background-size: cover;
-            justify-content: center;
+            background-size: contain;
+            justify-content: right;
         }
     
         #imageQuadro {
@@ -188,7 +188,7 @@ footer {
             max-height: 220px;
             text-align: center;
             justify-content: center;
-            font-size: small;
+            font-size: 12px;
         }
 
         input{
@@ -196,7 +196,11 @@ footer {
             max-height: 80px;
             text-align: center;
             justify-content: center;
-            font-size: small;
+            font-size: 12px;
+        }
+
+        footer{
+            font-size: 12px;
         }
     }
   
