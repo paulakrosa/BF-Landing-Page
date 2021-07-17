@@ -16,10 +16,13 @@ html {
     align-items: center;
     background-image: url(../assets/Background1.png);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
+.section-logo{
+    height: 30px;
+}
 
 #imageLogo{
     max-width: 12rem;
@@ -28,8 +31,8 @@ html {
 
 
 #imageBlackFriday {
-    max-width: 65rem;
-    margin: 0% 0 15% 10%;
+    max-width: 800px;
+    margin: 2% 0 15% 10%;
 }
 
 #imageQuadro {
@@ -37,7 +40,7 @@ html {
 }
 
 #imageQuadro, #imageMoldura {
-    width: 40rem;
+    width: 600px;
     margin: 2%;
 }
 
@@ -119,14 +122,14 @@ footer {
     font-style: normal;
 }
 
-@media screen and (max-width: 769px) {
+@media (max-width: 769px) {
     .section-container {
         background-image: none;
     }
 
     #imageQuadro {
         display: flex;
-        max-width: 300px;
+        max-width: 200px;
     }
     .section-container, .section-container-two {
         height: auto;
@@ -138,8 +141,12 @@ footer {
     }
 
     #imageBlackFriday {
-        max-width: 250px;
+        max-width: 200px;
         justify-content: left;
+    }
+
+    #imageLogo {
+        max-width: 20px;
     }
 
     @media (max-width: 40.625rem) {
@@ -176,5 +183,6 @@ footer {
             flex-direction: column row-reverse;
             justify-content: center;
         }
-        
     }
+        
+}
