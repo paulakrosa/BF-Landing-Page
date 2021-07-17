@@ -163,4 +163,11 @@ footer {
         #imageBlackFriday {
             max-width: 20rem;
             justify-content: left;
-}
+        }
+
+        .card-container{
+            max-width: 15rem;
+            flex-direction: column row-reverse;
+            justify-content: center;
+        }
+    }
