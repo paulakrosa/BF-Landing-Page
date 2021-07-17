@@ -22,13 +22,13 @@ html {
 
 
 #imageLogo{
-    max-width: 200px;
+    max-width: 12rem;
     margin: 1% 0 4% 2%;
 }
 
 
 #imageBlackFriday {
-    max-width: 1080px;
+    max-width: 65rem;
     margin: 0% 0 15% 10%;
 }
 
@@ -37,7 +37,7 @@ html {
 }
 
 #imageQuadro, #imageMoldura {
-    width: 700px;
+    width: 40rem;
     margin: 2%;
 }
 
@@ -50,8 +50,8 @@ html {
 }
 
 .card-container{
-    width: 700px;
-    height: 200px;
+    width: 40rem;
+    height: 20rem;
     background-color: #a5cbef;
     border-radius: 25px;
     display: flex;
@@ -119,14 +119,14 @@ footer {
     font-style: normal;
 }
 
-@media (max-width: 769px) {
+@media screen and (max-width: 769px) {
     .section-container {
         background-image: none;
     }
 
     #imageQuadro {
         display: block;
-        max-width: 400px;
+        max-width: 300px;
     }
     .section-container, .section-container-two {
         height: auto;
@@ -138,7 +138,29 @@ footer {
     }
 
     #imageBlackFriday {
-        max-width: 400px;
+        max-width: 300px;
+        justify-content: left;
     }
 
+    @media (max-width: 40.625rem) {
+        .section-container {
+          max-width: 20.625rem;
+        }
+
+        #imageQuadro {
+            display: block;
+            max-width: 20rem;
+        }
+        .section-container, .section-container-two {
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .section-container-two {
+            flex-direction: column-reverse;
+        }
+    
+        #imageBlackFriday {
+            max-width: 20rem;
+            justify-content: left;
 }
