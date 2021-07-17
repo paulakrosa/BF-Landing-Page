@@ -159,6 +159,7 @@ footer {
             background-image: none;
             max-width: 300px;
             background-size: cover;
+            justify-content: center;
         }
     
         #imageQuadro {
@@ -175,7 +176,7 @@ footer {
     
         #imageBlackFriday {
             max-width: 300px;
-            justify-content: left;
+            justify-content: center;
         }
     
         #imageLogo {
@@ -187,7 +188,7 @@ footer {
             max-height: 220px;
             text-align: center;
             justify-content: center;
-            font-size: medium;
+            font-size: small;
         }
 
         input{
@@ -195,7 +196,7 @@ footer {
             max-height: 80px;
             text-align: center;
             justify-content: center;
-            font-size: medium;
+            font-size: small;
         }
     }
   
