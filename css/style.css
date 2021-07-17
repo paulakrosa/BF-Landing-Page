@@ -125,7 +125,7 @@ footer {
     }
 
     #imageQuadro {
-        display: block;
+        display: flex;
         max-width: 300px;
     }
     .section-container, .section-container-two {
@@ -138,7 +138,7 @@ footer {
     }
 
     #imageBlackFriday {
-        max-width: 300px;
+        max-width: 250px;
         justify-content: left;
     }
 
@@ -161,7 +161,7 @@ footer {
         }
     
         #imageBlackFriday {
-            max-width: 20rem;
+            max-width: 15rem;
             justify-content: left;
         }
 
@@ -170,4 +170,11 @@ footer {
             flex-direction: column row-reverse;
             justify-content: center;
         }
+
+        input{
+            max-width: 10rem;
+            flex-direction: column row-reverse;
+            justify-content: center;
+        }
+        
     }
